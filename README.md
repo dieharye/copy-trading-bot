@@ -111,7 +111,7 @@ We welcome contributions! If you’d like to help improve the bot, feel free to 
 
 Developed by 
 
-[@dieharye](https://t.me/midaBricoll)
+[t.me/dieharye](https://t.me/midaBricoll)
 
 [x.me/dieharye](https://dieharye/midaBricoll)
 
