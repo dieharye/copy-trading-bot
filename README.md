@@ -1,6 +1,14 @@
 
 #  Solana Copy Trading Bot
 
+Developed by 
+
+[t.me/midaBricoll](https://t.me/midaBricoll)
+
+[x.com/dieharye](https://x.com/dieharye
+
+---
+
 Powered by: Jupiter Aggregator, Solana Web3.js, and SPL Token libraries.
 
 Welcome to the **Solana Copy Trading Bot**, a cutting-edge tool designed to replicate successful trades on the Solana blockchain! This bot monitors live transactions, automatically executes trades, and optimizes profits, making it easier for you to stay ahead in the market. 
@@ -82,12 +90,3 @@ npm run start
 - Automatically buys or sells tokens based on your custom-defined logic using the best available prices via Jupiter Aggregator.
 
 
-Developed by 
-
-[t.me/midaBricoll](https://t.me/midaBricoll)
-
-[x.com/dieharye](https://x.com/dieharye)
-
-🌟 **Happy Trading!** 🌟
-
----
