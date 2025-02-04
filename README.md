@@ -5,7 +5,7 @@ Developed by
 
 [t.me/midaBricoll](https://t.me/midaBricoll)
 
-[x.com/dieharye](https://x.com/dieharye
+[x.com/dieharye](https://x.com/dieharye)
 
 ---
 
