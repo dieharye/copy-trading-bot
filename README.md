@@ -1,35 +1,35 @@
 
-# 🚀 **Solana Copy Trading Bot** 🤖
+#  Solana Copy Trading Bot
 
-🔗 **Powered by**: Jupiter Aggregator, Solana Web3.js, and SPL Token libraries.
+Powered by: Jupiter Aggregator, Solana Web3.js, and SPL Token libraries.
 
-Welcome to the **Solana Copy Trading Bot**, a cutting-edge tool designed to replicate successful trades on the Solana blockchain! This bot monitors live transactions, automatically executes trades, and optimizes profits, making it easier for you to stay ahead in the market. 🌍🔄💰
+Welcome to the **Solana Copy Trading Bot**, a cutting-edge tool designed to replicate successful trades on the Solana blockchain! This bot monitors live transactions, automatically executes trades, and optimizes profits, making it easier for you to stay ahead in the market. 
 
 ---
 
 ## 📖 **Key Features**
 
-### 1. **Real-Time Transaction Monitoring** 🕒  
+### 1. **Real-Time Transaction Monitoring** 
 - **Live Monitoring**: Tracks Jupiter swap transactions in real-time using WebSocket.  
 - **Key Insights**: Extracts essential details, including token addresses, amounts, and prices, as soon as the transaction occurs.
 
-### 2. **Smart and Efficient Trade Execution** 🎯  
+### 2. **Smart and Efficient Trade Execution** 
 - **Automated Trading**: Executes buy or sell trades based on monitored swap data.  
 - **Maximized Profits**: Ensures an optimal SOL balance while maintaining reserves for future trades.
 
-### 3. **Comprehensive Token Metadata** 📊  
+### 3. **Comprehensive Token Metadata**  
 - **Token Info**: Retrieves metadata such as token name, symbol, and logo with the help of the Metaplex SDK.  
 - **Market Value**: Calculates token prices and displays them in USD for clearer insights.
 
 ### 4. **Highly Customizable** 🔧  
 - **Easy Configuration**: Adjust target wallet, buy/sell limits, and RPC endpoints to fit your needs with minimal effort.
 
-### 5. **Advanced Analytics** 📈  
+### 5. **Advanced Analytics**
 - **Transaction Logging**: Keeps detailed logs of transaction values and links to Solscan for transparency, ensuring you have full control and oversight of your trades.
 
 ---
 
-## 📦 **Installation & Setup**
+##  **Installation & Setup**
 
 ### 1. **Clone the Repository**  
 ```bash
@@ -55,7 +55,7 @@ JUP_AGGREGATOR=<jupiter_program_id>
 
 ---
 
-## 🚀 **How to Use the Bot**
+##  **How to Use the Bot**
 
 ### 1. **Start the Bot**  
 Simply run:  
@@ -81,33 +81,6 @@ npm run start
 ### 3. **Automated Trade Execution**  
 - Automatically buys or sells tokens based on your custom-defined logic using the best available prices via Jupiter Aggregator.
 
----
-
-## ⚡ **Example Output**
-
-```plaintext
-🚀 Swap: SOL ↔️ USDC  
-💰 Amount: 2 SOL = 100 USDC  
-💵 Value: 50 USD = 100 USD  
-🔗 Transaction Link: https://solscan.io/tx/yourtxhash
-```
-
----
-
-## 🛡 **Safety Features**
-
-- **Sufficient Balance**: The bot ensures that there is enough SOL balance before executing any trade.  
-- **Smart Validation**: Invalid swaps and unsupported tokens are rejected, preventing potential losses.
-
----
-
-## 💡 **Contributing**
-
-We welcome contributions! If you’d like to help improve the bot, feel free to submit pull requests or report issues. Your input is always appreciated. 🛠
-
----
-
-## 👨‍💻 **Author**
 
 Developed by 
 
