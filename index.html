@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="V4LatYK9qUqBM08ouU4MGHMfei7RHHSLtKgrYHtcCe0" />
+    <title>Solana Copy Trading Bot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1, h2, h3 {
+            color: #1a73e8;
+        }
+        a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #1a73e8;
+            padding-bottom: 5px;
+        }
+        .contact-links {
+            margin-top: 20px;
+        }
+        .contact-links a {
+            display: inline-block;
+            margin-right: 15px;
+            font-weight: bold;
+        }
+        code {
+            background-color: #e9ecef;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: Consolas, monospace;
+        }
+        pre {
+            background-color: #e9ecef;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Solana Copy Trading Bot</h1>
+    <p>Developed by:</p>
+    <div class="contact-links">
+        <a href="https://t.me/midaBricoll" target="_blank">Telegram: t.me/midaBricoll</a>
+        <a href="https://x.com/dieharye" target="_blank">X (Twitter): x.com/dieharye</a>
+    </div>
+
+    <p>Powered by: <strong>Jupiter Aggregator, Solana Web3.js, and SPL Token libraries</strong>.</p>
+
+    <p>Welcome to the <strong>Solana Copy Trading Bot</strong>, a cutting-edge tool designed to replicate successful trades on the Solana blockchain! This bot monitors live transactions, automatically executes trades, and optimizes profits, making it easier for you to stay ahead in the market.</p>
+
+    <div class="section">
+        <h2>📖 Key Features</h2>
+        <h3>1. Real-Time Transaction Monitoring</h3>
+        <ul>
+            <li><strong>Live Monitoring</strong>: Tracks Jupiter swap transactions in real-time using WebSocket.</li>
+            <li><strong>Key Insights</strong>: Extracts essential details, including token addresses, amounts, and prices, as soon as the transaction occurs.</li>
+        </ul>
+
+        <h3>2. Smart and Efficient Trade Execution</h3>
+        <ul>
+            <li><strong>Automated Trading</strong>: Executes buy or sell trades based on monitored swap data.</li>
+            <li><strong>Maximized Profits</strong>: Ensures an optimal SOL balance while maintaining reserves for future trades.</li>
+        </ul>
+
+        <h3>3. Comprehensive Token Metadata</h3>
+        <ul>
+            <li><strong>Token Info</strong>: Retrieves metadata such as token name, symbol, and logo with the help of the Metaplex SDK.</li>
+            <li><strong>Market Value</strong>: Calculates token prices and displays them in USD for clearer insights.</li>
+        </ul>
+
+        <h3>4. Highly Customizable 🔧</h3>
+        <ul>
+            <li><strong>Easy Configuration</strong>: Adjust target wallet, buy/sell limits, and RPC endpoints to fit your needs with minimal effort.</li>
+        </ul>
+
+        <h3>5. Advanced Analytics</h3>
+        <ul>
+            <li><strong>Transaction Logging</strong>: Keeps detailed logs of transaction values and links to Solscan for transparency, ensuring you have full control and oversight of your trades.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>🚀 Installation & Setup</h2>
+        <h3>1. Clone the Repository</h3>
+        <pre><code>git clone https://github.com/dieharye/solana-copy-trading-bot.git
+cd solana-copy-trading-bot</code></pre>
+
+        <h3>2. Install Dependencies</h3>
+        <pre><code>npm install</code></pre>
+
+        <h3>3. Configure Environment Variables</h3>
+        <p>Create a <code>.env</code> file and include the following details:</p>
+        <pre><code>PRIVATE_KEY=&lt;your_wallet_private_key&gt;
+RPC_ENDPOINT=https://api.mainnet-beta.solana.com
+RPC_WEBSOCKET_ENDPOINT=wss://api.mainnet-beta.solana.com
+TARGET_WALLET=&lt;target_wallet_public_key&gt;
+MAXIMUM_BUY_AMOUNT=&lt;max_amount_in_SOL&gt;
+JUP_AGGREGATOR=&lt;jupiter_program_id&gt;</code></pre>
+    </div>
+
+    <div class="section">
+        <h2>💡 How to Use the Bot</h2>
+        <h3>1. Start the Bot</h3>
+        <p>Simply run:</p>
+        <pre><code>npm run start</code></pre>
+
+        <h3>2. What the Bot Does</h3>
+        <ul>
+            <li><strong>Monitors</strong>: Tracks live Jupiter swaps and logs the transaction details.</li>
+            <li><strong>Executes</strong>: Automatically buys or sells SOL and tokens based on predefined trading conditions.</li>
+            <li><strong>Reports</strong>: Displays transaction outcomes, including detailed links to Solscan for easy tracking.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>🛠 How It Works</h2>
+        <h3>1. Real-Time Transaction Monitoring</h3>
+        <p>The bot subscribes to Solana transaction streams using WebSocket for live updates.</p>
+
+        <h3>2. Data Extraction & Token Insights</h3>
+        <p>Extracts swap data and token metadata, including name, symbol, and logos, for better decision-making.</p>
+
+        <h3>3. Automated Trade Execution</h3>
+        <p>Automatically buys or sells tokens based on your custom-defined logic using the best available prices via Jupiter Aggregator.</p>
+    </div>
+</body>
+</html>
